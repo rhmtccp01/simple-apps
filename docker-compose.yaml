@@ -1,7 +1,7 @@
 services:
   simple-apps:
     container_name: ct-simpleapps
-    build: /app
+    image: rhmtccp/simpleapps
     ports:
       - "8181:3000"
     environment:
